@@ -1,0 +1,156 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+theme = "sada"
+
+[params]
+    title = "Collin Davis"
+    author = "Collin Davis"
+    description = "Electrical Engineering Student at UAB"
+    copyright = ""
+    copyright_link = ""
+
+    # Profile section
+    [params.profile]
+        name = "Collin Davis"
+        photo = "ResumePic.jpeg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-linkedin-in"
+        url = "https://www.linkedin.com/in/collinrdavis/"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-github"
+        url = "https://github.com/crdavis2"
+        title = "GitHub"
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Bachelors in Electrical Engineering"
+        college = "University of Alabama at Birmingham"
+        dates = "2017 - Present"
+
+        [[params.education.list]]
+        degree = "IB Diploma & Alabama High School Advanced Diploma"
+        college = "Jefferson County International Baccalaurate School"
+        dates = "2013 - 2017"
+
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Fluent"
+
+        [[params.language.list]]
+        language = "Spanish"
+        level = "Proficient"
+
+    # Interests section
+    [params.hobbies]
+        title = "Awards"
+
+        [[params.hobbies.list]]
+        interest = "IB Diploma"
+
+		    [[params.hobbies.list]]
+        interest = "UAB Presidential Scholarship"
+
+        [[params.hobbies.list]]
+        interest = "AP Scholar"
+
+        [[params.hobbies.list]]
+        interest = "Jefferson County Super Scholar"
+
+        [[params.hobbies.list]]
+        interest = "National Honors Society Member"
+
+        [[params.hobbies.list]]
+        interest = "National Spanish Honors Society Member"
+
+
+    [params.aboutme]
+        description = "College junior in search of an internship that will give valuable experience in the various forms of electrical/computer engineering as well as practical application of classroom skills. Classroom knowledge has given a strong background that can be applied to any task related to electrical engineering or computer science, and passion for these fields gives motivation to do well in order to set a career in these fields into motion."
+
+    # Experiences section
+    [params.experiences]
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "TRENDLab Transportation Intern"
+        dates = "January 2018 - May 2018"
+		link = "#"
+        company = "UAB"
+        details = "Experience with big data processing with Excel and Access. Data was processed for all of 2017, then assigned to a map (using a GIS software) of all observed roadways across the greater Birmingham area. This map with processed data was handed to the head transportation engineer at the Regional Planning Commission of Greater Birmingham. The map was used to help make appropriate decisions concerning upkeep and planning of roadway upgrades and changes."
+
+        [[params.jobs.list]]
+        position = "Host/Backwaiter"
+        dates = "August 2017 - *Present*"
+		link = "#"
+        company = "Fleming's Prime Steakhouse and Wine Bar"
+        details = "Exposure with customer care and general professionalism. Teamwork and collaboration are keys to success in this restaurant."
+
+    # Projects section
+    [params.projects]
+        icon = "fa-project-diagram"
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "JCIB Campus Beautification Project"
+        dates = "August 2015 - Present"
+        url = "#"
+        description = "Part of the Shades Valley High School/JCIB campus was heavily eroded due to heavy rains and poor channeling of rain that traveled through gutters on the roof of the school building. The dirt that was eroded would often cover a large portion of one of the parking lots near the front of the school, creating a very unsightly entrance to the school. This project aims to prevent further erosion of this part of campus by constructing a terrace garden. The walls of the garden will retain any soil that would normally be eroded to the bottom of the hill and eventually onto the parking lot. Further, the garden can be used for student projects and potentially for produce growth to be donated to local food cabinets for students in need."
+
+		[[params.projects.list]]
+        title = "AWS stsauth"
+        url = "https://github.com/cshamrick/stsauth"
+        description = "Assisted with writing unit tests for stsauth: A CLI tool that allows easy generation of AWS credentials using STS, ADFS, and Active Directory."
+
+    # Skills section
+    [params.skills]
+        icon = "fa-cogs"
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "C"
+        skillrating = 60 # out of 100
+
+        [[params.skills.list]]
+        skill = "Python"
+        skillrating = 20
+
+        [[params.skills.list]]
+        skill = "Java"
+        skillrating = 60
+
+        [[params.skills.list]]
+        skill = "HTML"
+        skillrating = 20
+
+        [[params.skills.list]]
+        skill = "MatLab"
+        skillrating = 40
+
+        [[params.skills.list]]
+        skill = "Git"
+        skillrating = 80
+
+        [[params.skills.list]]
+        skill = "Bash"
+        skillrating = 80
+
+        [[params.skills.list]]
+        skill = "TestNG"
+        skillrating = 60

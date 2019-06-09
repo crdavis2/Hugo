@@ -1,0 +1,19 @@
+{
+  "name": "hugobuild",
+  "version": "1.0.0",
+  "description": "hugo build and deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crdavis2/Hugo.git"
+  },
+  "author": "Collin Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crdavis2/Hugo/issues"
+  },
+  "homepage": "https://github.com/crdavis2/Hugo#readme"
+}

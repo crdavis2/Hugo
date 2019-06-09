@@ -91,14 +91,14 @@ theme = "sada"
         [[params.jobs.list]]
         position = "TRENDLab Transportation Intern"
         dates = "January 2018 - May 2018"
-		link = "#"
+
         company = "UAB"
         details = "Experience with big data processing with Excel and Access. Data was processed for all of 2017, then assigned to a map (using a GIS software) of all observed roadways across the greater Birmingham area. This map with processed data was handed to the head transportation engineer at the Regional Planning Commission of Greater Birmingham. The map was used to help make appropriate decisions concerning upkeep and planning of roadway upgrades and changes."
 
         [[params.jobs.list]]
         position = "Host/Backwaiter"
         dates = "August 2017 - *Present*"
-		link = "#"
+
         company = "Fleming's Prime Steakhouse and Wine Bar"
         details = "Exposure with customer care and general professionalism. Teamwork and collaboration are keys to success in this restaurant."
 
@@ -108,15 +108,15 @@ theme = "sada"
         title = "Projects"
 
         [[params.projects.list]]
-        title = "JCIB Campus Beautification Project"
-        dates = "August 2015 - Present"
-        url = "#"
-        description = "Part of the Shades Valley High School/JCIB campus was heavily eroded due to heavy rains and poor channeling of rain that traveled through gutters on the roof of the school building. The dirt that was eroded would often cover a large portion of one of the parking lots near the front of the school, creating a very unsightly entrance to the school. This project aims to prevent further erosion of this part of campus by constructing a terrace garden. The walls of the garden will retain any soil that would normally be eroded to the bottom of the hill and eventually onto the parking lot. Further, the garden can be used for student projects and potentially for produce growth to be donated to local food cabinets for students in need."
+            title = "AWS stsauth"
+            url = "https://github.com/cshamrick/stsauth"
+            description = "Assisted with writing unit tests for stsauth: A CLI tool that allows easy generation of AWS credentials using STS, ADFS, and Active Directory."
 
-		[[params.projects.list]]
-        title = "AWS stsauth"
-        url = "https://github.com/cshamrick/stsauth"
-        description = "Assisted with writing unit tests for stsauth: A CLI tool that allows easy generation of AWS credentials using STS, ADFS, and Active Directory."
+
+        [[params.projects.list]]
+          title = "JCIB Campus Beautification Project"
+          dates = "August 2015 - Present"
+          description = "Part of the Shades Valley High School/JCIB campus was heavily eroded due to heavy rains and poor channeling of rain that traveled through gutters on the roof of the school building. The dirt that was eroded would often cover a large portion of one of the parking lots near the front of the school, creating a very unsightly entrance to the school. This project aims to prevent further erosion of this part of campus by constructing a terrace garden. The walls of the garden will retain any soil that would normally be eroded to the bottom of the hill and eventually onto the parking lot. Further, the garden can be used for student projects and potentially for produce growth to be donated to local food cabinets for students in need."
 
     # Skills section
     [params.skills]

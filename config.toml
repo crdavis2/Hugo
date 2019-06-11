@@ -108,9 +108,9 @@ theme = "sada"
         title = "Projects"
 
         [[params.projects.list]]
-            title = "AWS stsauth"
-            url = "https://github.com/cshamrick/stsauth"
-            description = "Assisted with writing unit tests for stsauth: A CLI tool that allows easy generation of AWS credentials using STS, ADFS, and Active Directory."
+          title = "AWS stsauth"
+          url = "https://github.com/cshamrick/stsauth"
+          description = "Assisted with writing unit tests for stsauth: A CLI tool that allows easy generation of AWS credentials using STS, ADFS, and Active Directory."
 
 
         [[params.projects.list]]
